@@ -5,13 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>dotYassir</title>
+
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+
     <link rel="icon" href="images/tab_icon.png">
     <link rel="stylesheet" href="styles.css">
+
+    <!--Icons from FontAwesome-->
+    <script src="https://kit.fontawesome.com/e8c6a868bf.js" crossorigin="anonymous"></script>
+    
 </head>
 <body>
+    <!--Nav Bar-->
     <nav class="navbar">
         <div class="navbar__container">
             <a id="navbar__logo">.yassir</a>
@@ -22,18 +30,63 @@
                 <li class="navbar__item">
                     <a href="/" class="navbar__links">//work</a>
                 </li>
+                </li>
                 <li class="navbar__item">
                     <a href="/" class="navbar__links">//contacts</a>
                 </li>
                 <li class="navbar__item">
-                    <img src="pic_trulli.jpg" class="navbar__linkslogo">
+                    <a href="/" class="navbar__linkslogo"><i class="fa-brands fa-linkedin"></i></a>
                 </li>
                 <li class="navbar__item">
-                    <a href="/" class="navbar__linkslogo">//contacts</a>
+                    <a href="/" class="navbar__linkslogo"><i class="fa-brands fa-github"></i></a>
                 </li>
+
+
+
             </ul>
         </div>
     </nav>
+
+
+    <!--Hero Section-->
+    <div class="main">
+        <div class="main__container">
+            <div class="main__content">
+                <h1>WELCOME.yassir</h1>
+                <h2>a digital portfolio for a hopeful full-stack dev</h2>
+
+                <p>haha ok</p>
+
+            </div>
+            <div class="main__thingstodo">
+                <h1>//things to do</h1>
+                <div class="top">
+                    <h3>/**</h3>
+                    <div id="posts"></div>
+                    <br><br>
+                    <h3>**/</h3>
+                </div>
+
+                <br><br>
+                
+                <div class="bottom">
+                    <form id="form" onsubmit="return false">
+                        <label for="post"> add something</label>
+                        <br><br>
+                        <textarea name="post" id="input" cols="30" rows="10"></textarea>
+                        <br><br>
+                        <div id="msg"></div>
+                        <button type="submit">Post</button>
+                      </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+
 </body>
 </html>
 

@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    background-color: #000;
+    background-color: rgb(39, 39, 39);
     
 }
 
@@ -57,4 +57,76 @@
     height: 100%;
     font-size: small;
     font-weight: bold;
+    transition: 0.5s;
 }
+
+.navbar__links:hover {
+    color: rgb(48, 170, 252);
+}
+
+.navbar__linkslogo {
+    color: rgb(48, 170, 252);
+    padding-left: 0.5em;
+    padding-right:0.8em;
+    transition: 0.5s;
+}
+
+.navbar__linkslogo:hover {
+    color: white;
+}
+
+.main {
+    color:white;
+}
+
+.main__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    height: 90vh;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 200px;
+}
+
+.main__content h1 {
+    font-size: 4rem;
+
+}
+
+.main__content h2 {
+    font-size: 1rem;
+    padding-bottom: 5rem;
+    font-weight: 200;
+}
+
+.main__thingstodo {
+    color: rgb(40, 104, 48);
+    padding-left: 15em;
+    justify-self: center;
+    height: 50vh
+}
+
+.main__thingstodo h1 {
+    padding-bottom: 3rem;
+
+}
+
+.options {
+    display: flex;
+    gap: 25px;
+  }
+
+  #posts div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+}
+
+#msg {
+    color: red;
+  }
