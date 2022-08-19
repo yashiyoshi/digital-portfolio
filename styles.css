@@ -87,7 +87,7 @@
     margin: 0 auto;
     height: 90vh;
     width: 100%;
-    max-width: 1300px;
+    max-width: 2000px;
     padding: 0 200px;
 }
 
@@ -166,8 +166,8 @@ color: red;
 }
 
 .modal {
-    background-color: rgba(255, 255, 255, 0.206);
-    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.075);
+    backdrop-filter: blur(5px);
   }
 
 .bottom button {
@@ -178,7 +178,7 @@ color: red;
     color: rgb(255, 255, 255);
 }
 
-.main__thingstodo p{
+.main__thingstodo p {
     font-size: small;
 
 }
