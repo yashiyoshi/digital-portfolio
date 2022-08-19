@@ -13,7 +13,7 @@ let formValidation = () => {
   if (input.value === "") {
     msg.innerHTML = "Post cannot be blank";
   } else {
-    if(input.value == "111"){
+    if(input.value == "1111"){
       window.location.replace("editTTD.html");
     }
     else{
